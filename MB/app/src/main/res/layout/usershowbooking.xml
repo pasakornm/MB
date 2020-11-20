@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/User_Rev_ID"
+        android:textStyle="bold"
+        android:text="เลขที่ใบเสร็จ: "/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/User_Rev_ID2"
+        android:text="Reserve ID"
+        android:layout_toRightOf="@id/User_Rev_ID"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/User_Cuss_ID"
+        android:text="รหัสลูกค้า: "
+        android:layout_below="@id/User_Rev_ID2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/User_Cuss_ID2"
+        android:text="Cus ID"
+        android:layout_below="@id/User_Rev_ID2"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/User_Cuss_ID"
+        />
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/User_Res_DT"
+        android:layout_below="@id/User_Rev_ID"
+        android:layout_marginTop="28dp"
+        android:layout_marginLeft="10dp"
+        android:text="วันที่จอง: "/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/User_Res_DT2"
+        android:layout_toRightOf="@id/User_Res_DT"
+        android:layout_below="@id/User_Rev_ID"
+        android:layout_marginTop="28dp"
+        android:layout_marginLeft="5dp"
+        android:text="Reserve Date: "/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/User_In_DT"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="วันจองห้องพัก: "
+        android:textStyle="bold"
+        android:layout_below="@id/User_Res_DT"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/User_In_DT2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Check In Date: "
+        android:layout_toRightOf="@id/User_In_DT"
+        android:layout_below="@id/User_Res_DT"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/User_Out_DT"
+        android:layout_below="@id/User_In_DT"
+        android:text="วันเช็คเอาท์: "
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/User_Out_DT2"
+        android:layout_below="@id/User_In_DT"
+        android:layout_toRightOf="@id/User_Out_DT"
+        android:text="Check Out Date: "
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/User_Total_PC"
+        android:layout_below="@id/User_Out_DT"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:text="ราคารวม: "/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/User_Total_PC2"
+        android:layout_below="@id/User_Out_DT"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Total Price: "
+        android:layout_toRightOf="@id/User_Total_PC" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/User_Room_Type"
+        android:layout_below="@+id/User_Total_PC"
+        android:text="ประเภทห้อง: "
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/User_Room_Type2"
+        android:layout_toRightOf="@+id/User_Room_Type"
+        android:layout_below="@id/User_Total_PC2"
+        android:text="Room Type: "
+        android:layout_marginBottom="5dp"
+        />
+</RelativeLayout>
